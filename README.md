@@ -1,6 +1,17 @@
 # Projeto Frontend 
 ## Criado para gerenciar ações de inserção, atualização, exclusão e visualização de pessoas/registros
 
+O projeto roda em:
+```
+http://localhost:4200/
+```
+Caso ao inicializar o browser e aparecer `ttp://localhost:4200/people` apague o `/people` e rode o local.
+
+Inicialização do projeto
+```
+npm start
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
 ## Development server
