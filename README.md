@@ -1,15 +1,25 @@
 # Projeto Frontend 
 ## Criado para gerenciar ações de inserção, atualização, exclusão e visualização de pessoas/registros
 
-O projeto roda em:
+O projeto roda em
 ```
 http://localhost:4200/
 ```
 Caso ao inicializar o browser e aparecer `ttp://localhost:4200/people` apague o `/people` e rode o local.
 
+Instalar as dependências
+```
+npm install ou npm i
+```
+
 Inicialização do projeto
 ```
 npm start
+```
+
+Instalando o @angular
+```
+npm install -g angular-cli 
 ```
 .
 .
