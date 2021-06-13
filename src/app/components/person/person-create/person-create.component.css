@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px 15px 0 0;
+}
+
+.cancel {
+    background: #e91e63;
+    color: #fff;
+}
+
+.save {
+    background: #1EE5F0;
+    color: #fff;
+}
+
+.lbl-form {
+    color: #673ab7;
+}

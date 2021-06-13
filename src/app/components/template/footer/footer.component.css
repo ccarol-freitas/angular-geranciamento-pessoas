@@ -1,0 +1,21 @@
+.footer {
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FAFAFA;
+}
+
+.footer span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.icon {
+    color: #673ab7;
+}
+
+.v-middle {
+    vertical-align: middle;
+}

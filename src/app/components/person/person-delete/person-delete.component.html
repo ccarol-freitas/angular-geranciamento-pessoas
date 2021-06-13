@@ -1,0 +1,29 @@
+<mat-card class="content-card">
+    <mat-card-title>Excluir pessoa</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <mat-label>Nome</mat-label>
+            <input type="text" matInput placeholder="Seu nome" [(ngModel)]="person.name" name="name" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>E-mail</mat-label>
+            <input type="email" matInput placeholder="ca@example.com" [(ngModel)]="person.email" name="email" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Telefone</mat-label>
+            <input type="tel" matInput placeholder="(11) 999999999)" [(ngModel)]="person.phone" name="phone" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Data de Nascimento</mat-label>
+            <input type="date" matInput placeholder="DD/MM/YYYY" [(ngModel)]="person.birth_at" name="birth_at" disabled>
+        </mat-form-field>
+    </form>
+
+
+    <button mat-raised-button (click)="deletePerson()" class="save">Confirmar</button>
+    <button mat-raised-button (click)="cancel()" class="cancel">cancelar</button>
+</mat-card>

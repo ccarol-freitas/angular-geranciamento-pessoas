@@ -1,0 +1,58 @@
+.home {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+}
+
+.home .title {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #262626;
+}
+
+.home .subtitle {
+    font-size: 1.1rem;
+    color: #262626;
+}
+
+.v-middle {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.card-home {
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    flex-wrap: wrap;
+}
+
+.text-card {
+    font-size: 26px;
+}
+
+.text-card i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.content-home {
+    display: flex;
+    justify-content: center;
+}
+
+.card-rec {
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-action .item-action {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    list-style: disc;
+}

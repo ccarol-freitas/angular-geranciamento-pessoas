@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #673ab7;
+    color: #fff;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .logo {
+    width: 32px;
+    max-height: 32px;
+}
+
+.header .title-group {
+    padding-left: 25px;
+}
+
+.header .title-group i {
+    padding-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        padding: 10px;
+    }
+}

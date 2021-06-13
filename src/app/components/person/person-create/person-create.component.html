@@ -1,0 +1,29 @@
+<mat-card class="content-card">
+    <mat-card-title>Cadastrar Pessoa </mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <mat-label class="lbl-form" class="lbl-form">Nome</mat-label>
+            <input type="text" matInput placeholder="Seu nome" [(ngModel)]="person.name" name="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label class="lbl-form">E-mail</mat-label>
+            <input type="email" matInput placeholder="ca@example.com" [(ngModel)]="person.email" name="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label class="lbl-form ">Telefone</mat-label>
+            <input type="tel" matInput placeholder="(11) 99999-9999)" [(ngModel)]="person.phone" name="phone" maxlength="15" />
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label class="lbl-form ">Data de Nascimento</mat-label>
+            <input matInput type="date" matInput placeholder="DD/MM/YYYY " [(ngModel)]="person.birth_at " name="birth_at ">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createPerson() " class="save ">Cadastrar</button>
+    <button mat-raised-button (click)="cancel() " class="cancel "> Cancelar</button>
+
+</mat-card>

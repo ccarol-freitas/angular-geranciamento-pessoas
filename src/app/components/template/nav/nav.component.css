@@ -1,0 +1,36 @@
+    .sidebar {
+        background-color: #fafafa;
+    }
+    
+    mat-sidenav {
+        margin-top: 64px;
+        overflow: hidden;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidebar a {
+        color: #262626;
+        font-weight: 500;
+    }
+    
+    .i-right {
+        padding-right: 10px;
+    }
+    
+    .content {
+        padding: 16px;
+        margin-top: 10px;
+    }
+    
+    .nav-list a:hover {
+        background: #ded3f1;
+        color: #673ab7;
+    }
+    
+    @media screen and (max-width:768px) {
+        mat-sidenav {
+            display: none;
+        }
+    }
