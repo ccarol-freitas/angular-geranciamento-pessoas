@@ -1,4 +1,5 @@
-# Frontend
+# Projeto Frontend 
+## Criado para gerenciar ações de inserção, atualização, exclusão e visualização de pessoas/registros
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
