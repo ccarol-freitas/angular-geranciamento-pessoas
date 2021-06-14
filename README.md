@@ -5,7 +5,7 @@ O projeto roda em
 ```
 http://localhost:4200/
 ```
-Caso ao inicializar o browser e aparecer `ttp://localhost:4200/people` apague o `/people` e rode o local.
+Caso ao inicializar o browser e aparecer `http://localhost:4200/people` apague o `/people` e rode o local.
 
 Instalar as dependências
 ```
